@@ -8,6 +8,13 @@ Homebrew tap for [ClickFit](https://github.com/mertogzhn/ClickFitMac) — a nati
 brew install --cask mertogzhn/clickfit/clickfit
 ```
 
+> **Note (Homebrew 6.0+):** Third-party taps are untrusted by default. If you see
+> `Refusing to load cask ... from untrusted tap`, trust the tap once and retry:
+>
+> ```bash
+> brew trust mertogzhn/clickfit
+> ```
+
 ## Updating
 
 ```bash
