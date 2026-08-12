@@ -1,6 +1,6 @@
 cask "clickfit" do
-  version "1.5.3"
-  sha256 "7e11e93cf66e2a67d141beffb0960aaed8bf7ae81c9fed4ab1c6cb6b5b6ed6ea"
+  version "2.0.0"
+  sha256 "68a01a92fdb2484733e991bed69d1450daf29a1b315c6d75e5a06066325d0e65"
 
   url "https://github.com/mertogzhn/ClickFitMac/releases/download/v#{version}/ClickFit-#{version}.dmg"
   name "ClickFit"
@@ -12,7 +12,7 @@ cask "clickfit" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: ">= :sonoma"
 
   app "ClickFit.app"
 
