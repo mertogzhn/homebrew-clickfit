@@ -1,6 +1,6 @@
 cask "clickfit" do
-  version "2.0.2"
-  sha256 "e52b1b57f44407de1301c877076908bf0a5585685b01921bdfa9b5286245003d"
+  version "2.0.3"
+  sha256 "91406e5cb3b4a40be4cb813b31c80683a54cc5a95ce2d4d270d6f7cf81eac1cf"
 
   url "https://github.com/mertogzhn/ClickFitMac/releases/download/v#{version}/ClickFit-#{version}.dmg"
   name "ClickFit"
